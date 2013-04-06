@@ -1,0 +1,96 @@
+{
+  "type": "external",
+  "name": "jquery",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "externals\/jquery",
+  "repository": null,
+  "date": "Fri, 05 Apr 2013 10:24:09 +0000",
+  "title": "Jquery",
+  "description": "Jquery ",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Trung Nguyen"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Fri, 05 Apr 2013 10:24:09 +0000",
+    "title": "Jquery",
+    "description": "Jquery ",
+    "developer": null,
+    "authors": [
+      "Trung Nguyen"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "externals\/jquery": {
+      "type": "directory",
+      "path": "externals\/jquery",
+      "structure": [
+        {
+          "path": "LightFace.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 8580,
+          "sha1": "2bf44c8ec5aadb64f6829a841e4f90cfb948abcf"
+        },
+        {
+          "path": "custom.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 32527,
+          "sha1": "1a201bfe7640345f4270ce4ae37c85225e9e761d"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 452,
+          "sha1": "5204c96e6340400e1fde3fcec57b368e6bda39f2"
+        },
+        {
+          "path": "ajax-loader.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 8238,
+          "sha1": "eaded78ad2db6c8bd31983753992e954c512cbb8"
+        },
+        {
+          "path": "jquery-1.7.min.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 94023,
+          "sha1": "cf9b759270c1c7c603d8d3879d2c5fabc621d004"
+        },
+        {
+          "path": "LightFace.Image.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2463,
+          "sha1": "3cd83f3d0c7bec519444ed2d548337b43466d6ee"
+        }
+      ]
+    }
+  }
+}

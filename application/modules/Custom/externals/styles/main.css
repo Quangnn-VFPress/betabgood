@@ -1,0 +1,139 @@
+.layout_custom_list_student_enough
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.layout_custom_list_student_enough > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_custom_list_student_enough > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_custom_list_student_enough a.newestmembers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+}
+.layout_custom_list_student_enough a.newestmembers_thumb > img
+{
+  display: block;
+}
+.layout_custom_list_student_enough .newestmembers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_custom_list_student_enough .newestmembers_name
+{
+  font-weight: bold;
+}
+.layout_custom_list_student_enough .newestmembers_date
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+
+
+/*top sponsor*/
+.layout_custom_sponsor_popular
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.layout_custom_sponsor_popular > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_custom_sponsor_popular > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_custom_sponsor_popular a.newestmembers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+}
+.layout_custom_sponsor_popular a.newestmembers_thumb > img
+{
+  display: block;
+}
+.layout_custom_sponsor_popular .newestmembers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_custom_sponsor_popular .newestmembers_name
+{
+  font-weight: bold;
+}
+.layout_custom_sponsor_popular .newestmembers_date
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+/**/
+
+.layout_custom_search_student{
+    margin-bottom: 10px;
+}
+
+/*newest sponsor*/
+.layout_custom_sponsor_newest
+{
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.layout_custom_sponsor_newest > ul
+{
+  +foreground;
+  +rounded;
+  padding: 5px;
+}
+.layout_custom_sponsor_newest > ul > li
+{
+  clear: both;
+  overflow: hidden;
+  padding: 3px 5px 3px 5px;
+}
+.layout_custom_sponsor_newest a.newestmembers_thumb
+{
+  float: left;
+  display: block;
+  width: 48px;
+}
+.layout_custom_sponsor_newest a.newestmembers_thumb > img
+{
+  display: block;
+}
+.layout_custom_sponsor_newest .newestmembers_info
+{
+  padding: 0px 0px 0px 6px;
+  overflow: hidden;
+}
+.layout_custom_sponsor_newest .newestmembers_name
+{
+  font-weight: bold;
+}
+.layout_custom_sponsor_newest .newestmembers_date
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}

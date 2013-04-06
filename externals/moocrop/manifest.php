@@ -1,0 +1,19 @@
+<?php
+
+ // 01.03.2013 - TrioxX
+
+return array(
+  'package' => array(
+    'type' => 'external',
+    'name' => 'moocrop',
+    'version' => '4.0.0',
+    'revision' => '$Revision: 9747 $',
+    'path' => 'externals/moocrop',
+    'repository' => '',
+    'title' => 'Moocrop',
+    'author' => 'Webligo Developments',
+    'directories' => array(
+      'externals/moocrop',
+    )
+  )
+) ?>

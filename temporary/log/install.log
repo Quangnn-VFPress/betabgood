@@ -1,0 +1,1193 @@
+2013-04-06T02:26:22+00:00 NOTICE (5): [8] Undefined index: statistics (C:\xampp\htdocs\betabgood\install\controllers\InstallController.php) [737]
+Error Code: 5d8b51
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): InstallController->dbCreateAction()
+#1 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('dbCreateAction')
+#2 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#6 {main}
+
+2013-04-06T02:28:45+00:00 CRIT (2): exception 'Engine_Exception' with message 'No transaction was found in the cache.' in C:\xampp\htdocs\betabgood\install\controllers\ManageController.php:1366
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(571): ManageController->_loadTransaction()
+#1 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->vfsAction()
+#2 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('vfsAction')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#6 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#7 {main}
+2013-04-06T02:28:46+00:00 CRIT (2): exception 'Engine_Exception' with message 'No transaction was found in the cache.' in C:\xampp\htdocs\betabgood\install\controllers\ManageController.php:1366
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(571): ManageController->_loadTransaction()
+#1 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->vfsAction()
+#2 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('vfsAction')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#6 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#7 {main}
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\album.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 72f0bf
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/album.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Album\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: a03203
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Album/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Album\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 2042be
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Album/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Album (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 2850ec
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Album')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-album-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 119edc
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-albu...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\blog.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 10eaa3
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/blog.cs...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Blog\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 8b7656
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Blog/Api/Cor...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Blog\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b69ef9
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Blog/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Blog (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 099d54
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Blog')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-blog-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: c2f7f8
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-blog...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\chat.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 57b549
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/chat.cs...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Chat\Bootstrap.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: d9b2aa
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Chat/Bootstr...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Chat (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 698813
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Chat')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-chat-4.2.5.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 9e2d09
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-chat...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\classified.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 2a2d32
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/classif...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Classified\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 632d93
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Classified/A...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Classified\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: d05494
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Classified/A...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Classified (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 7d3592
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Classified')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-classified-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 70e647
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-clas...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\event.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: da02c3
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/event.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Event\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: acd55d
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Event/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Event\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 198ea8
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Event/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Event (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: f1d707
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Event')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-event-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: bf4ace
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-even...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\forum.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: dac093
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/forum.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Forum\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 64c22e
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Forum/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Forum\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: cd6f2b
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Forum/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Forum (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: a96e26
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Forum')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-forum-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 51b62f
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-foru...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\group.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 416876
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/group.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Group\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 05a916
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Group/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Group\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: ffd9c7
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Group/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Group (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: d87ceb
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Group')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-group-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 0f8bfa
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-grou...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\mobi.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b05693
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/mobi.cs...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Mobi\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b670be
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Mobi/Api/Cor...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Mobi\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 3b735e
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Mobi/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Mobi (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: c11c43
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Mobi')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-mobi-4.2.2.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: c099e2
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-mobi...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\music.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 61a73a
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/music.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Music\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 0288af
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Music/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Music\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 137640
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Music/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Music (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 7b5a22
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Music')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-music-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: ca764e
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-musi...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\poll.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: a0ac0c
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/poll.cs...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Poll\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: a69b24
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Poll/Api/Cor...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Poll\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 25d170
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Poll/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Poll (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 2c74a2
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Poll')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-poll-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b4fc05
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-poll...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\video.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 3160c3
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/video.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Video\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 7035bc
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Video/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Video\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 3ca76f
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Video/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Video (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 0ede23
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Video')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:30:03+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-video-4.2.8.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: e78bd3
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-vide...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-album-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: cd2188
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-albu...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-blog-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 410b25
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-blog...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Chat\externals\images\admin\add.png (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 034ce5
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Chat/externa...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Chat\externals\images\admin (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b1b655
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Chat/externa...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-chat-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 500385
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-chat...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-classified-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 547875
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-clas...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-event-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: e98707
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-even...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Forum\Form\Search.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: f9872b
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Forum/Form/S...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Forum\widgets\browse-search\Controller.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 0a2995
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Forum/widget...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Forum\widgets\browse-search (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: d10526
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Forum/widget...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-forum-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: c66433
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-foru...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Group\settings\my-upgrade-4.2.9-4.3.0.sql (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 395ec0
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Group/settin...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-group-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: be8b75
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-grou...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-music-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: a5bdb1
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-musi...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-poll-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 43b298
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-poll...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Video\settings\my-upgrade-4.2.9-4.3.0.sql (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: fdb113
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Video/settin...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T02:32:45+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-video-4.3.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 3844c4
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-vide...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\custom.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: a1e05e
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/custom....')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Custom\Bootstrap.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 307a87
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Custom/Boots...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Custom (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 8ba1e9
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Custom')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-custom-4.0.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 3947fd
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-cust...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\languages\en\bgood.csv (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b23399
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/languages/en/bgood.c...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Bgood\Api\Core.php (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 0e0e28
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Bgood/Api/Co...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Bgood\Api (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 4f1331
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Bgood/Api')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\modules\Bgood (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: d61bb7
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/modules/Bgood')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\module-bgood-4.2.9.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 44f8cd
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/module-bgoo...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\application\packages\external-jquery-4.0.0.json (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b76d5c
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\applic...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\applic...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('application/packages/external-jq...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\externals\jquery\LightFace.Image.js (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 4f932e
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\extern...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\extern...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('externals/jquery/LightFace.Image...')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2013-04-06T03:58:35+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\betabgood\externals\jquery (C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 03e443
+Stack trace:
+#0 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\betabgood\extern...')
+#1 C:\xampp\htdocs\betabgood\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\betabgood\extern...')
+#2 C:\xampp\htdocs\betabgood\install\controllers\ManageController.php(737): Engine_Vfs_Adapter_Abstract->info('externals/jquery')
+#3 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Action.php(513): ManageController->permsAction()
+#4 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Dispatcher\Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\betabgood\application\libraries\Zend\Controller\Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\betabgood\application\libraries\Zend\Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\betabgood\install\index.php(87): Zend_Application->run()
+#9 {main}
+

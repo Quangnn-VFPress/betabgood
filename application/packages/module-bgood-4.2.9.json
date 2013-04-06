@@ -1,0 +1,682 @@
+{
+  "type": "module",
+  "name": "bgood",
+  "version": "4.2.9",
+  "revision": null,
+  "path": "application\/modules\/Bgood",
+  "repository": null,
+  "date": "Thu, 04 Apr 2013 11:12:17 +0000",
+  "title": "Bgood.vn",
+  "description": "Bgood.vn",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Bgood.vn"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 04 Apr 2013 11:12:17 +0000",
+    "title": "Bgood.vn",
+    "description": "Bgood.vn",
+    "developer": null,
+    "authors": [
+      "Bgood.vn"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Bgood": {
+      "type": "directory",
+      "path": "application\/modules\/Bgood",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 470,
+          "sha1": "2c1413e14d26c554dc6c2a97d523114ace571402"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 84,
+          "sha1": "711a3cd5e6bf5091cd0037ad8faad40a712ab306"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminBrowseFinanceController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8112,
+          "sha1": "c627f7d1694849585c5bb1532e0177f9361b52b0"
+        },
+        {
+          "path": "controllers\/AdminBrowseSponsorsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9909,
+          "sha1": "bc9c4241c050ec9d84adf28b2c2bb0d88d00b0c6"
+        },
+        {
+          "path": "controllers\/AdminBrowseStudentsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 14273,
+          "sha1": "6b8ca32e9a8ab23d8b0486c40f3b4905303ded6f"
+        },
+        {
+          "path": "controllers\/AdminBrowseVolunteersController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10971,
+          "sha1": "80a51579d3a2063e3ea17a7333d91a692809ac88"
+        },
+        {
+          "path": "controllers\/AdminStatisticsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 8109,
+          "sha1": "2703d421f560040f3de443e0d8318d30b9fb0bce"
+        },
+        {
+          "path": "controllers\/AutoCompleteController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1168,
+          "sha1": "471b3f09f303b31bf7a379243bd87ea5cff8764a"
+        },
+        {
+          "path": "controllers\/CountFundController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 667,
+          "sha1": "b81bc85bdd56463470fe6de6df5f4fb58fe4a0b3"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 166,
+          "sha1": "36661956a931c6c5d8403193e4ef22c3393be324"
+        },
+        {
+          "path": "controllers\/RaiseFundController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7053,
+          "sha1": "825db7088ba01b8c9c13cb247d904c56a6a5a72a"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images\/white-donation.png",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 793,
+          "sha1": "d1c1f00cb32c2e89e8ecf665fa230240ae5a4e61"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form\/Search.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1262,
+          "sha1": "c0f33fce3dc0429042510927b32d832f8fa3c50a"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Sponsor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6230,
+          "sha1": "5879716472c110dc1540f3e036d7eaac198bd7f5"
+        },
+        {
+          "path": "Model\/DbTable\/Student.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1933,
+          "sha1": "73632dad3f218aeeb9ce192289cb6b0f56ed9da3"
+        },
+        {
+          "path": "Model\/DbTable\/Volunteer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 6234,
+          "sha1": "777a2de7e21571611010a3236fb733b464b219fc"
+        },
+        {
+          "path": "Model\/Sponsor.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1228,
+          "sha1": "e91a7ceb098f2a93eea558a6fe19a666ae610227"
+        },
+        {
+          "path": "Model\/Student.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1228,
+          "sha1": "21295403e28ae1d8f6ff574eefbaa7f600328553"
+        },
+        {
+          "path": "Model\/Volunteer.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1230,
+          "sha1": "091b347ee304d02cde42326169c2262b0262811a"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Menus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2264,
+          "sha1": "5550eb3663298b270d9c3c97fb3ab1d5d23e427f"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 215,
+          "sha1": "a74622f86519a3f70377d2306cc4509f704068e0"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 661,
+          "sha1": "e05b1e77a0d5291c7dee5beb03bb2880602209ed"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 169,
+          "sha1": "bc9c845572561c6a90a2ec9d5b9e4ed0cf05eac1"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-browse-finance",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-browse-finance\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4234,
+          "sha1": "c31a6a8e815ae8a9ec5e523f7e7a75f4023b0d00"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-finance\/promote.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 779,
+          "sha1": "03ec7c9af021b85cb7c87bfed88b9c4afe01d2be"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-sponsors",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-browse-sponsors\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5597,
+          "sha1": "d06c88a0aa43749779ada70e54e3a3b3b97ba4b7"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-sponsors\/promote.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 779,
+          "sha1": "03ec7c9af021b85cb7c87bfed88b9c4afe01d2be"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-students",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-browse-students\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5592,
+          "sha1": "d2ca53dba468cbda0fd75bbe40b0804af4a9b64a"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-students\/promote.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 779,
+          "sha1": "48a70bd97d29b514e7ae70439d6864f21b418a4f"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-volunteers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-browse-volunteers\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5608,
+          "sha1": "7fb5b3f4b9e2a48f591e4903f60523ae51ea9e4f"
+        },
+        {
+          "path": "views\/scripts\/admin-browse-volunteers\/promote.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 787,
+          "sha1": "c67b01226d96bad67999d2e1b81194544c5d3c24"
+        },
+        {
+          "path": "views\/scripts\/admin-statistics",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-statistics\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4236,
+          "sha1": "616a992bb7dcb2596b315954e9cfb9dc0b20d274"
+        },
+        {
+          "path": "views\/scripts\/admin-statistics\/promote.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 779,
+          "sha1": "03ec7c9af021b85cb7c87bfed88b9c4afe01d2be"
+        },
+        {
+          "path": "views\/scripts\/auto-complete",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/auto-complete\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 35,
+          "sha1": "aa5cccbbca33103d04ad3795a1711197c93af241"
+        },
+        {
+          "path": "views\/scripts\/count-fund",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/count-fund\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 35,
+          "sha1": "aa5cccbbca33103d04ad3795a1711197c93af241"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 78,
+          "sha1": "bd3712e0fe3a73cf05f9a1d7235dfc5b03b8c1da"
+        },
+        {
+          "path": "views\/scripts\/raise-fund",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/raise-fund\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 29,
+          "sha1": "02b0e54c176275d985cdff9f9ad6663b53475950"
+        },
+        {
+          "path": "views\/scripts\/raise-fund\/raise.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 7512,
+          "sha1": "9519cd73ff16858bb0a06a25d78e64c78114e65f"
+        },
+        {
+          "path": "views\/scripts\/test.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1781,
+          "sha1": "d428254db4a14851742fd23ab5152c7403728d0b"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/promote-fund",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/promote-fund\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 455,
+          "sha1": "764b9db8c7a8604ffb77f91ffff658b206b85188"
+        },
+        {
+          "path": "widgets\/promote-fund\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 18047,
+          "sha1": "54f3f747811771def2aff8399c724b2ed3398b19"
+        },
+        {
+          "path": "widgets\/promote-user",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/promote-user\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 623,
+          "sha1": "0782ba0379ecb05fc1cacfad08eb68fca39bc8dc"
+        },
+        {
+          "path": "widgets\/promote-user\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 18047,
+          "sha1": "54f3f747811771def2aff8399c724b2ed3398b19"
+        },
+        {
+          "path": "widgets\/search",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/search\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2412,
+          "sha1": "3e3c7d6846cab4d0d080aa2c2785f36a0ee80e06"
+        },
+        {
+          "path": "widgets\/search\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 585,
+          "sha1": "44842ab76dac1924cc6785da6b73638d5ba23ac2"
+        }
+      ]
+    },
+    "application\/languages\/en\/bgood.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/bgood.csv",
+      "structure": {
+        "path": "bgood.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 14903,
+        "sha1": "f4515d1231eb593c367b4d5dbead4ad7d1fb1543"
+      }
+    }
+  }
+}

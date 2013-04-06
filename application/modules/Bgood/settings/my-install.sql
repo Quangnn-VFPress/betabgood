@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES  ('bgood', 'Bgood.vn', 'Bgood.vn', '4.2.9', 1, 'extra') ;

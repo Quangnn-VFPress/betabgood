@@ -1,0 +1,68 @@
+a:2:{i:0;s:3580:"
+
+  <h3>
+    Sign In or <a href="/signup">Join</a>  </h3>
+
+  <form id="user_form_login" enctype="application/x-www-form-urlencoded" class="global_form_box" action="/login" method="post"><div><div><div class="form-elements">
+<div id="email-wrapper" class="form-wrapper"><div id="email-label" class="form-label"><label for="email" class="required">Email Address</label></div>
+<div id="email-element" class="form-element">
+<input type="email" name="email" id="email" value="" tabindex="1" autofocus="autofocus" class="text" /></div></div>
+<div id="password-wrapper" class="form-wrapper"><div id="password-label" class="form-label"><label for="password" class="required">Password</label></div>
+<div id="password-element" class="form-element">
+<input type="password" name="password" id="password" value="" tabindex="2" /></div></div>
+<div class="form-wrapper" id="buttons-wrapper"><fieldset id="fieldset-buttons">
+<div id="remember-wrapper" class="form-wrapper"><div class="form-label" id="remember-label">&nbsp;</div>
+<div id="remember-element" class="form-element">
+<input type="hidden" name="remember" value="" /><input type="checkbox" name="remember" id="remember" value="1" tabindex="3" />
+<label for="remember" class="optional">Remember Me</label></div></div></fieldset></div>
+<div id="submitlogin-wrapper" class="form-wrapper"><div id="submitlogin-label" class="form-label">&nbsp;</div><div id="submitlogin-element" class="form-element">
+<button name="submitlogin" id="submitlogin" type="submit" tabindex="4">Sign In</button></div></div>
+<div id="janrain-wrapper" class="form-wrapper"><div id="janrain-label" class="form-label">&nbsp;</div>
+<div id="janrain-element" class="form-element"><script type="text/javascript">
+(function() {
+    var formMode = "column";
+    var accountType = "basic";
+    
+    // Custom
+    if( accountType == 'pro' ) {
+      janrain.settings.type = 'embed';
+      janrain.settings.providersPerPage = '6';
+      if( "" ) {
+        janrain.settings.actionText = "";
+      }
+      if( formMode == "page" ) {
+        janrain.settings.format = 'one row';
+        janrain.settings.width = '400';
+      } else {
+        janrain.settings.format = 'one column';
+        janrain.settings.width = '168';
+      }
+    } else {
+      janrain.settings.type = 'modal';
+    }
+    
+    function isReady() { janrain.ready = true; };
+    if (document.addEventListener) {
+      document.addEventListener("DOMContentLoaded", isReady, false);
+    } else {
+      window.attachEvent('onload', isReady);
+    }
+
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.id = 'janrainAuthWidget';
+
+    if (document.location.protocol === 'https:') {
+      e.src = 'https://rpxnow.com/js/lib/bgood/engage.js';
+    } else {
+      e.src = 'http://widget-cdn.rpxnow.com/js/lib/bgood/engage.js';
+    }
+
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(e, s);
+})();
+</script><span class="janrainEngageLabel">Or sign in using:<br /><a class="janrainEngage" href="#"><img src="/application/modules/User/externals/images/janrain/facebook.png" alt="facebook" title="facebook"/><img src="/application/modules/User/externals/images/janrain/twitter.png" alt="twitter" title="twitter"/><img src="/application/modules/User/externals/images/janrain/google.png" alt="google" title="google"/><img src="/application/modules/User/externals/images/janrain/yahoo.png" alt="yahoo" title="yahoo"/><wbr /></a></span></div></div>
+
+<input type="hidden" name="return_url" value="" id="return_url" /></div></div></div></form>
+  
+";i:1;N;}
